@@ -1,0 +1,1487 @@
+repo_name: mollypi/ray
+report_id: 1f951a6f98eb3afaee5db7a569a589ab
+repo_type: Public
+timestamp: '2023-11-15T05:34:23+00:00'
+requested_by: yuduber
+provider: github
+branch: master
+detected_tools_count: 126
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source: release/requirements_buildkite.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-02-16 17:35:02.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source: python/requirements.txt
+  last_updated_by: Barak Michener
+  last_updated_on: 2020-07-30 18:22:56.000000000 Z
+- name: Flask
+  description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+  website_url: http://flask.pocoo.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Simon Mo
+  last_updated_on: 2020-01-05 01:31:49.000000000 Z
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-07 15:21:03.000000000 Z
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source: python/requirements/ml/requirements_tune.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 18:43:00.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Max Fitton
+  last_updated_on: 2020-09-29 20:46:42.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: release/requirements_buildkite.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-24 16:21:11.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Max Fitton
+  last_updated_on: 2020-09-29 20:46:42.000000000 Z
+- name: Starlette
+  description: The little ASGI framework that shines
+  website_url: https://www.starlette.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/12353/default_1992cb8afa0b70c70c34a732b2ebf1923ae07022.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: architkulkarni
+  last_updated_on: 2020-12-14 23:03:56.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Jian Xiao
+  last_updated_on: 2022-11-22 01:41:35.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Robert Nishihara
+  last_updated_on: 2017-02-28 05:14:31.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: dashboard/client/package.json
+  last_updated_by: Max Fitton
+  last_updated_on: 2020-09-29 20:46:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/data_team_project.yml"
+  last_updated_by: Clark Zinzow
+  last_updated_on: 2022-06-30 00:51:53.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source: dashboard/modules/metrics/export/grafana/grafana.ini
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-09-21 00:48:39.000000000 Z
+- name: Jenkins
+  description: An extendable open source continuous integration server
+  website_url: http://jenkins-ci.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/670/jenkins.png
+  detection_source: docker/ray-worker-container/Dockerfile
+  last_updated_by: Raman Narasimhan
+  last_updated_on: 2020-06-01 20:56:08.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Max Fitton
+  last_updated_on: 2020-09-29 20:46:42.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source: dashboard/client/package.json
+  last_updated_by: Guyang Song
+  last_updated_on: 2022-07-25 10:49:48.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source: python/requirements.txt
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-09-20 21:59:03.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: release/requirements.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2021-07-14 19:39:07.000000000 Z
+- name: Uvicorn
+  description: The lightning-fast ASGI server
+  website_url: https://www.uvicorn.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/12834/uvicorn.png
+  detection_source: python/requirements.txt
+  last_updated_by: Archit Kulkarni
+  last_updated_on: 2022-01-15 00:00:51.000000000 Z
+- name: XGBoost
+  description: Scalable and Flexible Gradient Boosting
+  website_url: https://xgboost.ai/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/9899/xgboost400.png
+  detection_source: python/requirements/ml/requirements_tune.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 21:43:19.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source: python/requirements_linters.txt
+  last_updated_by: Amog Kamsetty
+  last_updated_on: 2021-05-03 21:23:28.000000000 Z
+- name: isort
+  description: " A Python utility / library to sort imports"
+  website_url: https://pycqa.github.io/isort/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png
+  detection_source: python/requirements_linters.txt
+  last_updated_by: clarng
+  last_updated_on: 2022-06-13 21:08:51.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Max Fitton
+  last_updated_on: 2020-09-29 20:46:42.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: scikit-image
+  description: Image processing in Python
+  website_url: http://scikit-image.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source: python/requirements.txt
+  last_updated_by: Max Pumperla
+  last_updated_on: 2022-01-21 23:42:05.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source: python/requirements/ml/requirements_ml_docker.txt
+  last_updated_by: Ian Rodney
+  last_updated_on: 2020-09-17 17:56:58.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source: Repo Metadata
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Dominic Ming
+  last_updated_on: 2021-01-29 07:22:26.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source: python/setup.py
+  last_updated_by: Robert Nishihara
+  last_updated_on: 2017-02-28 05:14:31.000000000 Z
+- name: Pandas
+  description: High-performance, easy-to-use data structures and data analysis tools
+    for the Python programming language
+  website_url: http://pandas.pydata.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2180/1284191.png
+  detection_source: python/ray/tune/requirements-dev.txt
+  last_updated_by: Simon Mo
+  last_updated_on: 2020-01-05 01:31:49.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source: Repo Metadata
+- name: PyMongo
+  description: 'For the ones who dream big &amp; think ahead to create the things
+    we can’t live without. MongoDB for #GIANTideas.'
+  website_url: https://api.mongodb.org/python/current/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4738/EPrK3ci2_normal.jpg
+  detection_source: python/requirements_test.txt
+  last_updated_by: Jiajun Yao
+  last_updated_on: 2022-11-14 19:24:07.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source: python/requirements.txt
+  last_updated_by: Barak Michener
+  last_updated_on: 2020-07-30 18:22:56.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source: doc/requirements-doc.txt
+  last_updated_by: Balaji Veeramani
+  last_updated_on: 2023-01-11 00:58:12.000000000 Z
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source: release/ml_user_tests/tune_rllib/driver_requirements.txt
+  last_updated_by: Balaji Veeramani
+  last_updated_on: 2022-11-08 18:23:34.000000000 Z
+- name: Transformers
+  description: State-of-the-art Natural Language Processing for Pytorch and TensorFlow
+    2.0
+  website_url: https://huggingface.co/transformers/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/12240/no-img.png
+  detection_source: python/requirements/ml/requirements_tune.txt
+  last_updated_by: Justin Yu
+  last_updated_on: 2022-09-08 17:50:14.000000000 Z
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source: src/ray/rpc/test/grpc_bench/Dockerfile
+  last_updated_by: Simon Mo
+  last_updated_on: 2021-09-15 05:38:20.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Dominic Ming
+  last_updated_on: 2021-01-29 07:22:26.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Philipp Moritz
+  last_updated_on: 2023-01-15 04:56:55.000000000 Z
+- name: pygame
+  description: Open Source python programming language library for making multimedia
+    applications
+  website_url: https://www.pygame.org/news
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/6512/default_1e1ae07154b9f359c410f3f24ba3c96c1be21cdf.jpg
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kornél Csernai
+  last_updated_on: 2023-01-07 19:05:08.000000000 Z
+- name: scikit-learn
+  description: Easy-to-use and general-purpose machine learning in Python
+  website_url: http://scikit-learn.org/stable/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2657/scikit-learn-logo.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kornél Csernai
+  last_updated_on: 2023-01-07 19:05:08.000000000 Z
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/Pygments
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Max Pumperla
+  last_updated_on: 2022-01-21 23:42:05.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/attrs
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source: python/setup.py
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: azure-mgmt-compute
+  description: Microsoft Azure Compute Management Client Library for Python
+  package_url: https://pypi.org/azure-mgmt-compute
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20731/default_0424ee9058624a7f8e5b1b6a0f32ea39869902f8.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: azure-mgmt-resource
+  description: Microsoft Azure Resource Management Client Library for Python
+  package_url: https://pypi.org/azure-mgmt-resource
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20680/default_a927e8b55b562fff7afe1b69e2c3f20ccbe4d50a.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/beautifulsoup4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Max Pumperla
+  last_updated_on: 2023-01-28 17:34:44.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source: python/requirements_linters.txt
+  last_updated_by: Peyton Murray
+  last_updated_on: 2022-10-26 19:23:11.000000000 Z
+- name: cloudpickle
+  description: Extended pickling support for Python objects
+  package_url: https://pypi.org/cloudpickle
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20066/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/colorama
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source: doc/requirements-doc.txt
+  last_updated_by: Richard Liaw
+  last_updated_on: 2020-08-03 21:06:05.000000000 Z
+- name: colorful
+  description: Terminal string styling done right, in Python
+  package_url: https://pypi.org/colorful
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20471/default_9133ac72cd6446db23468e38bad37eb681762f92.png
+  detection_source: doc/requirements-doc.txt
+  last_updated_by: Richard Liaw
+  last_updated_on: 2020-08-03 21:06:05.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/cryptography
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: dask
+  description: Parallel PyData with Task Scheduling
+  package_url: https://pypi.org/dask
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20131/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source: python/requirements/data_processing/requirements.txt
+  last_updated_by: Akash Patel
+  last_updated_on: 2022-10-29 06:45:54.000000000 Z
+- name: filelock
+  description: A platform independent file lock
+  package_url: https://pypi.org/filelock
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20204/default_645e4030c04804ccf56eaad54caf7b7a73a44c64.png
+  detection_source: python/setup.py
+  last_updated_by: Philipp Moritz
+  last_updated_on: 2018-12-09 21:52:40.000000000 Z
+- name: freezegun
+  description: Let your Python tests travel through time
+  package_url: https://pypi.org/freezegun
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20595/default_9322f13ef9811bfc120f244dc670f7e4fb5b8aa3.png
+  detection_source: python/requirements/ml/requirements_tune.txt
+  last_updated_by: xwjiang2010
+  last_updated_on: 2021-08-13 08:37:56.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/google-api-python-client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kornél Csernai
+  last_updated_on: 2023-01-07 19:05:08.000000000 Z
+- name: google-cloud-storage
+  description: Google Cloud Storage API client library
+  package_url: https://pypi.org/google-cloud-storage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/grpcio
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source: python/setup.py
+  last_updated_by: Ricky Xu
+  last_updated_on: 2022-12-10 03:02:17.000000000 Z
+- name: gym
+  description: 'The OpenAI Gym: A toolkit for developing and comparing your reinforcement
+    learning agents'
+  package_url: https://pypi.org/gym
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20403/default_ce843a13e614e0f1450cbeee8c38810e4f092f1e.png
+  detection_source: python/requirements/ml/requirements_rllib.txt
+  last_updated_by: Timon Ruban
+  last_updated_on: 2019-06-05 16:04:36.000000000 Z
+- name: h5py
+  description: Read and write HDF5 files from Python
+  package_url: https://pypi.org/h5py
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20166/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source: python/requirements/ml/requirements_tune.txt
+  last_updated_by: Akash Patel
+  last_updated_on: 2022-10-29 06:45:54.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/importlib-metadata
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: SangBin Cho
+  last_updated_on: 2023-01-13 11:32:38.000000000 Z
+- name: jsonpatch
+  description: Apply JSON-Patches
+  package_url: https://pypi.org/jsonpatch
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20389/default_dbae17f97e8212cfa7ac5c2981eb06a9bf0f7b40.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Dmitri Gekhtman
+  last_updated_on: 2022-11-18 05:08:45.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/jsonschema
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source: python/setup.py
+  last_updated_by: Max Pumperla
+  last_updated_on: 2022-01-21 23:42:05.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/lxml
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: mock
+  description: Rolling backport of unittest.mock for all Pythons
+  package_url: https://pypi.org/mock
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19876/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source: doc/requirements-doc.txt
+  last_updated_by: Richard Liaw
+  last_updated_on: 2021-06-17 18:50:30.000000000 Z
+- name: msgpack
+  description: MessagePack
+  package_url: https://pypi.org/msgpack
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19934/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source: python/setup.py
+  last_updated_by: matthewdeng
+  last_updated_on: 2022-12-01 19:23:28.000000000 Z
+- name: msrestazure
+  description: AutoRest swagger generator Python client runtime
+  package_url: https://pypi.org/msrestazure
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20007/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: networkx
+  description: Python package for creating and manipulating graphs and networks
+  package_url: https://pypi.org/networkx
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: numba
+  description: Compiling Python code using LLVM
+  package_url: https://pypi.org/numba
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20053/default_9f5ca9b3fcd68c068d4026e56ab738e8e865691f.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2023-01-03 11:35:00.000000000 Z
+- name: openpyxl
+  description: A Python library to read/write Excel 2010 xlsx/xlsm files
+  package_url: https://pypi.org/openpyxl
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19895/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: SangBin Cho
+  last_updated_on: 2023-01-13 11:32:38.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/packaging
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source: python/setup.py
+  last_updated_by: matthewdeng
+  last_updated_on: 2022-12-01 19:23:28.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/pexpect
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: pyarrow
+  description: Python library for Apache Arrow
+  package_url: https://pypi.org/pyarrow
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20366/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Antoni Baum
+  last_updated_on: 2021-11-13 16:00:58.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/pydantic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source: release/requirements_buildkite.txt
+  last_updated_by: Artur Niederfahrenhorst
+  last_updated_on: 2022-08-31 20:35:18.000000000 Z
+- name: pyglet
+  description: Cross-platform windowing and multimedia library
+  package_url: https://pypi.org/pyglet
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20301/default_1801c4854c9a56a25ccd7b33a13647a1e901ed84.png
+  detection_source: python/requirements/ml/requirements_rllib.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-09-24 17:32:55.000000000 Z
+- name: pytest-forked
+  description: Run tests in isolated forked subprocesses
+  package_url: https://pypi.org/pytest-forked
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20811/default_2f5e681bc003054d9b4d4dce47b5862e8bef9594.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: WeichenXu
+  last_updated_on: 2023-01-31 11:36:55.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/python-dotenv
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source: release/requirements.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2021-07-14 19:39:07.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source: release/requirements_buildkite.txt
+  last_updated_by: Timon Ruban
+  last_updated_on: 2019-06-05 16:04:36.000000000 Z
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/responses
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source: python/requirements/data_processing/requirements.txt
+  last_updated_by: Yi Cheng
+  last_updated_on: 2022-01-11 19:45:18.000000000 Z
+- name: s3fs
+  description: Convenient Filesystem interface over S3
+  package_url: https://pypi.org/s3fs
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20632/default_a11444edf33ff94e58c187eb4ce85472f4316c58.png
+  detection_source: python/requirements/data_processing/requirements.txt
+  last_updated_by: Clark Zinzow
+  last_updated_on: 2021-08-12 15:39:31.000000000 Z
+- name: tabulate
+  description: Pretty-print tabular data
+  package_url: https://pypi.org/tabulate
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19864/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source: python/ray/tune/requirements-dev.txt
+  last_updated_by: Ujval Misra
+  last_updated_on: 2019-10-08 23:38:39.000000000 Z
+- name: tensorboardX
+  description: TensorBoardX lets you watch Tensors Flow without Tensorflow
+  package_url: https://pypi.org/tensorboardX
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20698/default_4378cb8505402011f45fcf251eb0ebcc26c98194.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Amog Kamsetty
+  last_updated_on: 2021-12-22 01:17:52.000000000 Z
+- name: testfixtures
+  description: A collection of helpers and mock objects for unit tests and doc tests
+  package_url: https://pypi.org/testfixtures
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20450/default_59d62a07c53d1fab2755686ea36d4608e808dcf6.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/tqdm
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: virtualenv
+  description: Virtual Python Environment builder
+  package_url: https://pypi.org/virtualenv
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19970/default_1c8812e05cf754e8f654b8d86b3f025827f5bfb6.png
+  detection_source: python/setup.py
+  last_updated_by: Jialing He
+  last_updated_on: 2022-09-07 23:17:50.000000000 Z
+- name: xlrd
+  description: Library for developers to extract data from Microsoft Excel
+  package_url: https://pypi.org/xlrd
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20182/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source: python/requirements_test.txt
+  last_updated_by: Kai Fricke
+  last_updated_on: 2022-10-20 00:41:09.000000000 Z
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-07 15:21:03.000000000 Z
+- name: "@material-ui/icons"
+  description: Material Design Svg Icons converted to Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/icons
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: "@material-ui/lab"
+  description: Material-UI Lab - Incubator for Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/lab
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18760/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-07 15:21:03.000000000 Z
+- name: "@material-ui/styles"
+  description: Material-UI Styles - The styling solution of Material-UI
+  package_url: https://www.npmjs.com/@material-ui/styles
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17576/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-07 15:21:03.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-03 00:39:38.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: "@types/classnames"
+  description: TypeScript definitions for classnames
+  package_url: https://www.npmjs.com/@types/classnames
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-10 02:42:38.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-10 02:42:38.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-10 02:42:38.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-10 02:42:38.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-10 02:42:38.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-10 02:42:38.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Dominic Ming
+  last_updated_on: 2021-01-29 07:22:26.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Dominic Ming
+  last_updated_on: 2021-01-29 07:22:26.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-07 15:21:03.000000000 Z
+- name: mockdate
+  description: A JavaScript mock Date object that can be used to change when "now"
+    is
+  package_url: https://www.npmjs.com/mockdate
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17523/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-10-21 06:30:44.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Max Fitton
+  last_updated_on: 2020-09-29 20:46:42.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-12-19 09:21:48.000000000 Z
+- name: typeface-roboto
+  description: Roboto typeface
+  package_url: https://www.npmjs.com/typeface-roboto
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18618/default_632bbfb948e0ea8f8e1cc2caaa8946b66a13d200.png
+  detection_source: dashboard/client/package.json
+  last_updated_by: Alan Guo
+  last_updated_on: 2022-11-10 02:42:38.000000000 Z
