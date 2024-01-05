@@ -174,7 +174,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mollypi/ray](https://github.com/mollypi/ray)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|436<br/>Tools used|12/14/23 <br/>Report generated|
+|441<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -977,9 +977,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (342)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (347)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (315)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (320)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -1042,6 +1042,7 @@ Full tech stack [here](/techstack.md)
 |[blessed](https://pypi.org/project/blessed)|N/A|10/03/23|Balaji Veeramani |MIT|N/A|
 |[bokeh](https://pypi.org/project/bokeh)|N/A|10/03/23|Balaji Veeramani |BSD-3-Clause|N/A|
 |[boltons](https://pypi.org/project/boltons)|N/A|08/08/23|Kai Fricke |BSD-3-Clause|N/A|
+|[boto](https://pypi.org/project/boto)|N/A|10/31/23|Edward Oakes |MIT|N/A|
 |[botocore](https://pypi.org/project/botocore)|N/A|10/31/23|Edward Oakes |Apache-2.0|N/A|
 |[cached-property](https://pypi.org/project/cached-property)|N/A|10/26/23|Edward Oakes |BSD-3-Clause|N/A|
 |[cachetools](https://pypi.org/project/cachetools)|N/A|11/01/23|Justin Yu |MIT|N/A|
@@ -1210,6 +1211,7 @@ Full tech stack [here](/techstack.md)
 |[pydot](https://pypi.org/project/pydot)|N/A|10/03/23|Balaji Veeramani |MIT|N/A|
 |[pydub](https://pypi.org/project/pydub)|N/A|07/17/23|Kai Fricke |MIT|N/A|
 |[pyflakes](https://pypi.org/project/pyflakes)|N/A|10/03/23|Balaji Veeramani |MIT|N/A|
+|[pymongo](https://pypi.org/project/pymongo)|N/A|10/31/23|Edward Oakes |Apache-2.0|N/A|
 |[pyparsing](https://pypi.org/project/pyparsing)|N/A|10/03/23|Balaji Veeramani |MIT|N/A|
 |[pypng](https://pypi.org/project/pypng)|N/A|07/17/23|Kai Fricke |MIT|N/A|
 |[pyrsistent](https://pypi.org/project/pyrsistent)|N/A|10/31/23|Edward Oakes |MIT|N/A|
@@ -1254,6 +1256,7 @@ Full tech stack [here](/techstack.md)
 |[sqlitedict](https://pypi.org/project/sqlitedict)|N/A|07/28/23|kourosh hakhamaneshi |Apache-2.0|N/A|
 |[sqlparse](https://pypi.org/project/sqlparse)|N/A|10/26/23|Edward Oakes |BSD-3-Clause|N/A|
 |[starlette](https://pypi.org/project/starlette)|N/A|10/20/22|Kai Fricke |BSD-3-Clause|N/A|
+|[statsmodels](https://pypi.org/project/statsmodels)|N/A|10/09/23|Matthew Tang |BSD-3-Clause|N/A|
 |[sympy](https://pypi.org/project/sympy)|N/A|10/03/23|Balaji Veeramani |BSD-3-Clause|N/A|
 |[tabledata](https://pypi.org/project/tabledata)|N/A|08/02/23|Cuong Nguyen |MIT|N/A|
 |[tabulate](https://pypi.org/project/tabulate)|N/A|07/17/23|Kai Fricke |MIT|N/A|
@@ -1276,11 +1279,13 @@ Full tech stack [here](/techstack.md)
 |[typepy](https://pypi.org/project/typepy)|N/A|10/05/23|Cuong Nguyen |MIT|N/A|
 |[typing-extensions](https://pypi.org/project/typing-extensions)|N/A|10/31/23|Edward Oakes |Python-2.0|N/A|
 |[tzlocal](https://pypi.org/project/tzlocal)|N/A|06/22/23|Cuong Nguyen |MIT|N/A|
+|[ujson](https://pypi.org/project/ujson)|N/A|10/31/23|Edward Oakes |DSDP|N/A|
 |[uritemplate](https://pypi.org/project/uritemplate)|N/A|11/01/23|Justin Yu |Apache-2.0|N/A|
 |[urllib3](https://pypi.org/project/urllib3)|N/A|08/23/23|Christopher Field |MIT|N/A|
 |[uvicorn](https://pypi.org/project/uvicorn)|N/A|06/13/23|Kai Fricke |BSD-3-Clause|N/A|
 |[uvloop](https://pypi.org/project/uvloop)|N/A|10/26/23|Edward Oakes |Apache-2.0|N/A|
 |[validators](https://pypi.org/project/validators)|N/A|06/22/23|Cuong Nguyen |MIT|N/A|
+|[virtualenv](https://pypi.org/project/virtualenv)|N/A|06/13/23|Kai Fricke |MIT|N/A|
 |[wcwidth](https://pypi.org/project/wcwidth)|N/A|11/01/23|Justin Yu |MIT|N/A|
 |[webcolors](https://pypi.org/project/webcolors)|N/A|10/03/23|Balaji Veeramani |BSD-3-Clause|N/A|
 |[webencodings](https://pypi.org/project/webencodings)|N/A|10/31/23|Edward Oakes |BSD-3-Clause|N/A|
