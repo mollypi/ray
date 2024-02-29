@@ -3,82 +3,82 @@
 ## Tech Stack
 mollypi/ray is built on the following main stack:
 
-- [Jenkins](http://jenkins-ci.org/) – Continuous Integration
-- [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
-- [Google BigQuery](https://cloud.google.com/bigquery/what-is-bigquery) – Big Data as a Service
-- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [Python](https://www.python.org) – Languages
+- [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
+- [C++](http://www.cplusplus.com/) – Languages
 - [Java](https://www.java.com) – Languages
-- [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
+- [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
+- [Python](https://www.python.org) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [TypeScript](http://www.typescriptlang.org) – Languages
+- [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- [Flask](http://flask.pocoo.org/) – Microframeworks (Backend)
+- [Lit](https://ajusa.github.io/lit/) – Front-End Frameworks
+- [Material-UI](https://github.com/mui/material-ui) – Front-End Frameworks
+- [Matplotlib](http://matplotlib.org) – Charting Libraries
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- [Plotly.js](https://plot.ly/javascript) – Charting Libraries
+- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - [React](https://reactjs.org/) – Javascript UI Libraries
+- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- [Redux](https://redux.js.org/) – State Management Library
+- [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
+- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- [Google BigQuery](https://cloud.google.com/bigquery/what-is-bigquery) – Big Data as a Service
+- [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
 - [MongoDB](http://www.mongodb.com/) – Databases
 - [Redis](http://redis.io/) – In-Memory Databases
-- [C++](http://www.cplusplus.com/) – Languages
-- [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
-- [Gunicorn](http://gunicorn.org/) – Web Servers
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [peewee](https://github.com/coleifer/peewee) – Object Relational Mapper (ORM)
-- [OpenCV](http://opencv.org/) – Image Processing and Management
-- [scikit-image](http://scikit-image.org/) – Image Processing and Management
-- [Sphinx](http://sphinxsearch.com/) – Search Engines
-- [TypeScript](http://www.typescriptlang.org) – Languages
 - [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
+- [peewee](https://github.com/coleifer/peewee) – Object Relational Mapper (ORM)
+- [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
+- [CMake](http://www.cmake.org/) – Java Build Tools
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [ESLint](http://eslint.org/) – Code Review
+- [Fugue](https://fugue.co) – Infrastructure Build Tools
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Grafana](http://grafana.org/) – Monitoring Tools
+- [Gunicorn](http://gunicorn.org/) – Web Servers
+- [Jenkins](http://jenkins-ci.org/) – Continuous Integration
+- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Kubernetes](http://kubernetes.io/) – Container Tools
-- [Material-UI](https://github.com/mui/material-ui) – Front-End Frameworks
-- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
-- [NumPy](http://www.numpy.org/) – Data Science Tools
-- [Pandas](http://pandas.pydata.org/) – Data Science Tools
-- [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
+- [OpenCensus](https://opencensus.io/) – Monitoring Tools
+- [Prettier](https://prettier.io/) – Code Review
+- [Prometheus](http://prometheus.io/) – Monitoring Tools
+- [XGBoost](https://xgboost.ai/) – Python Build Tools
+- [flake8](https://github.com/PyCQA/flake8) – Code Review
+- [isort](https://pycqa.github.io/isort/) – Code Review
+- [pytest](http://pytest.org/latest/) – Testing Frameworks
+- [OpenCV](http://opencv.org/) – Image Processing and Management
 - [Pandoc](https://pandoc.org/) – File Conversion
 - [Pillow](https://python-pillow.github.io/) – Image Processing and Management
-- [Plotly.js](https://plot.ly/javascript) – Charting Libraries
-- [CMake](http://www.cmake.org/) – Java Build Tools
-- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- [Prometheus](http://prometheus.io/) – Monitoring Tools
-- [Grafana](http://grafana.org/) – Monitoring Tools
-- [scikit-learn](http://scikit-learn.org/stable/) – Machine Learning Tools
-- [Matplotlib](http://matplotlib.org) – Charting Libraries
-- [SciPy](http://www.scipy.org) – Data Science Tools
-- [ESLint](http://eslint.org/) – Code Review
-- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
-- [Redux](https://redux.js.org/) – State Management Library
-- [Jupyter](http://jupyter.org) – Data Science Notebooks
-- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- [Torch](http://torch.ch/) – Machine Learning Tools
-- [IPython](http://ipython.org/index.html) – Shells
-- [pytest](http://pytest.org/latest/) – Testing Frameworks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [TensorFlow](https://www.tensorflow.org) – Machine Learning Tools
-- [isort](https://pycqa.github.io/isort/) – Code Review
-- [flake8](https://github.com/PyCQA/flake8) – Code Review
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- [Keras](https://keras.io/) – Machine Learning Tools
-- [pygame](https://www.pygame.org/news) – Game Development
 - [cURL](http://curl.haxx.se/) – File Transfer
+- [scikit-image](http://scikit-image.org/) – Image Processing and Management
 - [Dask](http://dask.pydata.org/en/latest/) – Data Science Tools
-- [Prettier](https://prettier.io/) – Code Review
-- [Fugue](https://fugue.co) – Infrastructure Build Tools
-- [Lit](https://ajusa.github.io/lit/) – Front-End Frameworks
-- [MLflow](https://www.mlflow.org/) – Machine Learning Tools
-- [PySpark](http://spark.apache.org/docs/2.2.0/api/python/pyspark.html) – Data Science Tools
-- [XGBoost](https://xgboost.ai/) – Python Build Tools
-- [OpenCensus](https://opencensus.io/) – Monitoring Tools
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) – Machine Learning Tools
-- [Transformers](https://huggingface.co/transformers/) – NLP / Sentiment Analysis
 - [Gradio](https://www.gradio.app/) – Machine Learning Tools
-- [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
-- [Semgrep](https://semgrep.dev/) – Code Review
-- [Flask](http://flask.pocoo.org/) – Microframeworks (Backend)
-- [OpenAI](https://openai.com/) – Large Language Models
+- [IPython](http://ipython.org/index.html) – Shells
+- [Jupyter](http://jupyter.org) – Data Science Notebooks
+- [Keras](https://keras.io/) – Machine Learning Tools
 - [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [MLflow](https://www.mlflow.org/) – Machine Learning Tools
+- [NumPy](http://www.numpy.org/) – Data Science Tools
+- [OpenAI](https://openai.com/) – Large Language Models
+- [Pandas](http://pandas.pydata.org/) – Data Science Tools
+- [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
+- [PySpark](http://spark.apache.org/docs/2.2.0/api/python/pyspark.html) – Data Science Tools
+- [SciPy](http://www.scipy.org) – Data Science Tools
+- [Semgrep](https://semgrep.dev/) – Code Review
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Sphinx](http://sphinxsearch.com/) – Search Engines
+- [TensorFlow](https://www.tensorflow.org) – Machine Learning Tools
+- [Torch](http://torch.ch/) – Machine Learning Tools
+- [Transformers](https://huggingface.co/transformers/) – NLP / Sentiment Analysis
+- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- [pygame](https://www.pygame.org/news) – Game Development
+- [scikit-learn](http://scikit-learn.org/stable/) – Machine Learning Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -88,82 +88,82 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 mollypi/ray is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/670/jenkins.png' alt='Jenkins'/> [Jenkins](http://jenkins-ci.org/) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/694/Cloud_Storage.png' alt='Google Cloud Storage'/> [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/695/BigQuery.png' alt='Google BigQuery'/> [Google BigQuery](https://cloud.google.com/bigquery/what-is-bigquery) – Big Data as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C lang'/> [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1049/cplusplus.png' alt='C++'/> [C++](http://www.cplusplus.com/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1002/tornado.png' alt='Tornado'/> [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2303/New_Project__20_.png' alt='Jinja'/> [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png' alt='Mako'/> [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png' alt='Flask'/> [Flask](http://flask.pocoo.org/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Lit'/> [Lit](https://ajusa.github.io/lit/) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png' alt='Material-UI'/> [Material-UI](https://github.com/mui/material-ui) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2385/default_86d9af5b442d21446483d9bae3af24a4cee7d792.png' alt='Plotly.js'/> [Plotly.js](https://plot.ly/javascript) – Charting Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/1002/tornado.png' alt='Tornado'/> [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/695/BigQuery.png' alt='Google BigQuery'/> [Google BigQuery](https://cloud.google.com/bigquery/what-is-bigquery) – Big Data as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/694/Cloud_Storage.png' alt='Google Cloud Storage'/> [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
 - <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1049/cplusplus.png' alt='C++'/> [C++](http://www.cplusplus.com/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C lang'/> [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1091/gunicorn.png' alt='Gunicorn'/> [Gunicorn](http://gunicorn.org/) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1234/peewee3-logo.png' alt='peewee'/> [peewee](https://github.com/coleifer/peewee) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1293/opencv-logo-64x64.png' alt='OpenCV'/> [OpenCV](http://opencv.org/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1294/897180.png' alt='scikit-image'/> [scikit-image](http://scikit-image.org/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1598/TtqoAo1V.png' alt='Sphinx'/> [Sphinx](http://sphinxsearch.com/) – Search Engines
-- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1234/peewee3-logo.png' alt='peewee'/> [peewee](https://github.com/coleifer/peewee) – Object Relational Mapper (ORM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg' alt='CMake'/> [CMake](http://www.cmake.org/) – Java Build Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/7610/qaDKWgkX_400x400.jpg' alt='Fugue'/> [Fugue](https://fugue.co) – Infrastructure Build Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg' alt='Grafana'/> [Grafana](http://grafana.org/) – Monitoring Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1091/gunicorn.png' alt='Gunicorn'/> [Gunicorn](http://gunicorn.org/) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/670/jenkins.png' alt='Jenkins'/> [Jenkins](http://jenkins-ci.org/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1885/21_d3cvM.png' alt='Kubernetes'/> [Kubernetes](http://kubernetes.io/) – Container Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png' alt='Material-UI'/> [Material-UI](https://github.com/mui/material-ui) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2180/1284191.png' alt='Pandas'/> [Pandas](http://pandas.pydata.org/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2303/New_Project__20_.png' alt='Jinja'/> [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg' alt='OpenCensus'/> [OpenCensus](https://opencensus.io/) – Monitoring Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png' alt='Prometheus'/> [Prometheus](http://prometheus.io/) – Monitoring Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/9899/xgboost400.png' alt='XGBoost'/> [XGBoost](https://xgboost.ai/) – Python Build Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png' alt='flake8'/> [flake8](https://github.com/PyCQA/flake8) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png' alt='isort'/> [isort](https://pycqa.github.io/isort/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1293/opencv-logo-64x64.png' alt='OpenCV'/> [OpenCV](http://opencv.org/) – Image Processing and Management
 - <img width='25' height='25' src='https://img.stackshare.io/service/2330/no-img-open-source.png' alt='Pandoc'/> [Pandoc](https://pandoc.org/) – File Conversion
 - <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/2385/default_86d9af5b442d21446483d9bae3af24a4cee7d792.png' alt='Plotly.js'/> [Plotly.js](https://plot.ly/javascript) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg' alt='CMake'/> [CMake](http://www.cmake.org/) – Java Build Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png' alt='Prometheus'/> [Prometheus](http://prometheus.io/) – Monitoring Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg' alt='Grafana'/> [Grafana](http://grafana.org/) – Monitoring Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2657/scikit-learn-logo.png' alt='scikit-learn'/> [scikit-learn](http://scikit-learn.org/stable/) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png' alt='Mako'/> [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/3681/powershell-logo.png' alt='PowerShell'/> [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png' alt='Torch'/> [Torch](http://torch.ch/) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png' alt='IPython'/> [IPython](http://ipython.org/index.html) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4717/FtFnqC38_400x400.png' alt='TensorFlow'/> [TensorFlow](https://www.tensorflow.org) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png' alt='isort'/> [isort](https://pycqa.github.io/isort/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png' alt='flake8'/> [flake8](https://github.com/PyCQA/flake8) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/5601/keras.png' alt='Keras'/> [Keras](https://keras.io/) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/6512/default_1e1ae07154b9f359c410f3f24ba3c96c1be21cdf.jpg' alt='pygame'/> [pygame](https://www.pygame.org/news) – Game Development
 - <img width='25' height='25' src='https://img.stackshare.io/service/6552/curl-logo.png' alt='cURL'/> [cURL](http://curl.haxx.se/) – File Transfer
+- <img width='25' height='25' src='https://img.stackshare.io/service/1294/897180.png' alt='scikit-image'/> [scikit-image](http://scikit-image.org/) – Image Processing and Management
 - <img width='25' height='25' src='https://img.stackshare.io/service/6620/YdMklxIE_400x400.jpg' alt='Dask'/> [Dask](http://dask.pydata.org/en/latest/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/7610/qaDKWgkX_400x400.jpg' alt='Fugue'/> [Fugue](https://fugue.co) – Infrastructure Build Tools
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Lit'/> [Lit](https://ajusa.github.io/lit/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/9078/mlflow.png' alt='MLflow'/> [MLflow](https://www.mlflow.org/) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/9080/hNHMcixV_400x400.jpg' alt='PySpark'/> [PySpark](http://spark.apache.org/docs/2.2.0/api/python/pyspark.html) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/9899/xgboost400.png' alt='XGBoost'/> [XGBoost](https://xgboost.ai/) – Python Build Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg' alt='OpenCensus'/> [OpenCensus](https://opencensus.io/) – Monitoring Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/11808/no-img.png' alt='DeepSpeed'/> [DeepSpeed](https://github.com/microsoft/DeepSpeed) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/12240/no-img.png' alt='Transformers'/> [Transformers](https://huggingface.co/transformers/) – NLP / Sentiment Analysis
 - <img width='25' height='25' src='https://img.stackshare.io/service/12683/2KMkheJx_400x400.png' alt='Gradio'/> [Gradio](https://www.gradio.app/) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/33825/default_170c14f2a59fb874a4ed345ccb9fc092901f8d85.png' alt='Semgrep'/> [Semgrep](https://semgrep.dev/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png' alt='Flask'/> [Flask](http://flask.pocoo.org/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png' alt='IPython'/> [IPython](http://ipython.org/index.html) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
+- <img width='25' height='25' src='https://img.stackshare.io/service/5601/keras.png' alt='Keras'/> [Keras](https://keras.io/) – Machine Learning Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/9078/mlflow.png' alt='MLflow'/> [MLflow](https://www.mlflow.org/) – Machine Learning Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/2180/1284191.png' alt='Pandas'/> [Pandas](http://pandas.pydata.org/) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/3681/powershell-logo.png' alt='PowerShell'/> [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/9080/hNHMcixV_400x400.jpg' alt='PySpark'/> [PySpark](http://spark.apache.org/docs/2.2.0/api/python/pyspark.html) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/33825/default_170c14f2a59fb874a4ed345ccb9fc092901f8d85.png' alt='Semgrep'/> [Semgrep](https://semgrep.dev/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/1598/TtqoAo1V.png' alt='Sphinx'/> [Sphinx](http://sphinxsearch.com/) – Search Engines
+- <img width='25' height='25' src='https://img.stackshare.io/service/4717/FtFnqC38_400x400.png' alt='TensorFlow'/> [TensorFlow](https://www.tensorflow.org) – Machine Learning Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png' alt='Torch'/> [Torch](http://torch.ch/) – Machine Learning Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/12240/no-img.png' alt='Transformers'/> [Transformers](https://huggingface.co/transformers/) – NLP / Sentiment Analysis
+- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/6512/default_1e1ae07154b9f359c410f3f24ba3c96c1be21cdf.jpg' alt='pygame'/> [pygame](https://www.pygame.org/news) – Game Development
+- <img width='25' height='25' src='https://img.stackshare.io/service/2657/scikit-learn-logo.png' alt='scikit-learn'/> [scikit-learn](http://scikit-learn.org/stable/) – Machine Learning Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -174,7 +174,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mollypi/ray](https://github.com/mollypi/ray)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|441<br/>Tools used|01/05/24 <br/>Report generated|
+|441<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
